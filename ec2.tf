@@ -1,8 +1,7 @@
 resource "aws_instance" "jjtech" {
-  ami = "ami-0dc2d3e4c0f9ebd18"
+  ami = "ami-0dc8f589abe99f538"
   instance_type = "t2.micro"
   tags = {
     Name = "terraform-jenkins"
   }
-
 }
